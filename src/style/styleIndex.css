@@ -1,0 +1,105 @@
+
+#main{
+    border:solid;
+    height:100vh;
+    border-width: 0px;
+  }
+  #footer{
+    border:solid;
+  }
+
+footer {
+    border-top: 1px solid #535A76;
+    background-color: whitesmoke;
+    color: #535A76;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    position: static; 
+    width: 100%; 
+    text-align:left;
+    margin-top: 50px;
+  }
+  
+  .footer-section {
+    margin: 30px;
+  }
+  
+  .footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #416368;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    text-align:left;
+    border-top: 1px solid #555;
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .footer-bottom a {
+    color: #416368;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.2s;
+  }
+  
+  .footer-bottom p {
+    font-size: 12px;
+    color: #416368;
+    text-align:left;
+}
+
+.fa-eye, .fa-eye-slash {
+  margin-left: -30px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.input-group {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;  /* Centraliza verticalmente */
+  transform: translateY(-50%); /* Ajuste fino da centralização */
+  cursor: pointer;
+  z-index: 10; /* Z-index elevado para garantir visibilidade */
+  background: white; /* ou qualquer outra cor que se destaque contra o campo de entrada */
+  padding: 0 5px; /* Pequeno padding para não ficar sobre o texto */
+  border-radius: 50%;
+}
+
+.form-control {
+  position: relative;
+  z-index: 1;
+}
+
+.form-control:focus {
+  z-index: 1;
+}
